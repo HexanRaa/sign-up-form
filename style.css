@@ -11,7 +11,7 @@ body {
 
 .left-section {
   position: relative;
-  width: 50%;
+  width: 40%;
   background-image: url(./assets/img/bg.avif);
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,4 +55,69 @@ img {
   bottom: 0;
   width: 100%;
   padding: 15px 0;
+}
+
+.right-section {
+  padding: 5% 0 7% 2%;
+  font-family: "Oxygen", sans-serif;
+}
+
+.some-text {
+  font-weight: bold;
+  width: 70%;
+}
+
+form {
+  margin-top: 3rem;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, auto);
+  margin-top: 0.75rem;
+}
+
+legend {
+  font-weight: bold;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+input {
+  font-size: 1rem;
+  height: 1.5rem;
+  width: 20rem;
+  margin: 0;
+  padding: 0;
+  border: 1px solid rgb(163, 162, 162);
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid rgb(54, 54, 226);
+}
+
+button {
+  background-color: #596d48;
+  color: white;
+  text-align: center;
+  height: 2rem;
+  width: 10rem;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+}
+
+.login,
+.login:visited {
+  color: #596d48;
+  text-decoration: none;
+  font-weight: bold;
 }
